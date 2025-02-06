@@ -1159,6 +1159,7 @@ type IdentityProviderRepresentation struct {
 	ProviderID                *string            `json:"providerId,omitempty"`
 	StoreToken                *bool              `json:"storeToken,omitempty"`
 	TrustEmail                *bool              `json:"trustEmail,omitempty"`
+	HideOnLogin               *bool              `json:"hideOnLogin,omitempty"`
 }
 
 // IdentityProviderMapper represents the body of a call to add a mapper to
